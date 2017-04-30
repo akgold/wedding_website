@@ -1,0 +1,28 @@
+<!-- Team Section -->
+    <section id="about_us" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">About Us</h2>
+                    <h3 class="section-subheading text-muted">Some Fun Things About Us.</h3>
+                </div>
+            </div>
+            <div class="row">
+                {% for fact in site.facts %}
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <img src="img/about/{{ fact.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        <h4>{{ fact.title }}</h4>
+                        <p class="text-muted">{{ fact.text }}</p>
+
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">More Fun Facts to Come!</p>
+                </div>
+            </div>
+        </div>
+    </section>

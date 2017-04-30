@@ -1,15 +1,14 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Wollam Gardens
+subtitle: Flower Farm!
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
+date: 2017-04-30
+img: wg.jpg
+thumbnail: wg.jpg
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+credit_url: http://www.districtweddings.com/22145-2/
+credit_name: Amelia Johnson
+description: We're so excited to get to share Wollam Gardens with you. We loved it from our first moment there and we're sure you will too!
 
 ---
