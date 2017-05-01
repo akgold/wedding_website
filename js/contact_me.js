@@ -18,11 +18,12 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://docs.google.com/forms/d/1FAIpQLSe-dfieifu8hFupRW-3ZSDd9K7gIqU5cDqy-2DpfHJc5RfDBg/formResponse",
                 type: "POST",
+                dataType: "JSON",
                 data: {
                     name: name,
-                    phone: phone,
+                    n_people: n_people,
                     email: email,
                     message: message
                 },
