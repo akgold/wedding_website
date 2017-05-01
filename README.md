@@ -26,5 +26,3 @@ Images are in '/img/team/'
 
 View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
 
-=========
-For more details, read [documentation](http://jekyllrb.com/)
