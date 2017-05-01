@@ -10,10 +10,12 @@ if(empty($_POST['name'])  		||
 	return false;
    }
 
-$name = $_POST['name'];
-$email_address = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+return true;
+
+//$name = $_POST['name'];
+//$email_address = $_POST['email'];
+//$phone = $_POST['phone'];
+//$message = $_POST['message'];
 
 
 // Create the email and send the message
