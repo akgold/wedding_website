@@ -19,17 +19,16 @@ $(function() {
             }
             var ajaxC = function(){
               return $.ajax({
-                url: "https://docs.google.com/forms/d/e/1FAIpQLSe-dfieifu8hFupRW-3ZSDd9K7gIqU5cDqy-2DpfHJc5RfDBg/formResponse",
-                type: "GET",
-                jsonp: true,
-                dataType: "jsonp",
-                mimeType: "text/html",
+                url: "https://4rfwi08t6c.execute-api.us-east-1.amazonaws.com/prod/rsvp",
+                type: "POST",
+                dataType: "JSON",
                 data: {
-                    'entry.740194626': name,
-                    'entry.1199111819': email,
-                    'entry.1389690805': n_people,
-                    'entry.448937790': message,
-                    submit: 'Submit'
+                    Name: name,
+                    N: n_people,
+                    Email: email,
+                    Message: message,
+                    title: "RSVP Test",
+                    sheet : "Sheet 1"
                 },
                 cache: false,
                 dataFiler: function(data){
