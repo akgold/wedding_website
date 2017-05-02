@@ -18,14 +18,16 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://docs.google.com/forms/d/1FAIpQLSe-dfieifu8hFupRW-3ZSDd9K7gIqU5cDqy-2DpfHJc5RfDBg/formResponse",
+                url: "https://4rfwi08t6c.execute-api.us-east-1.amazonaws.com/prod/rsvp",
                 type: "POST",
                 dataType: "JSON",
                 data: {
-                    name: name,
-                    n_people: n_people,
-                    email: email,
-                    message: message
+                    Name: name,
+                    N: n_people,
+                    Email: email,
+                    Message: message,
+                    title: "RSVP Test",
+                    sheet : "Sheet 1"
                 },
                 cache: false,
                 success: function() {
