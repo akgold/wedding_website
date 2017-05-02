@@ -10,31 +10,38 @@ $(function() {
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
-            var n_people = $("input#n_people").val();
+            var n_people = $("select#n_people").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
-            $.ajax({
-                url: "https://docs.google.com/forms/d/1FAIpQLSe-dfieifu8hFupRW-3ZSDd9K7gIqU5cDqy-2DpfHJc5RfDBg/formResponse",
-                type: "POST",
-                dataType: "JSON",
+            var ajaxC = function(){
+              return $.ajax({
+                url: "https://docs.google.com/forms/d/e/1FAIpQLSe-dfieifu8hFupRW-3ZSDd9K7gIqU5cDqy-2DpfHJc5RfDBg/formResponse",
+                type: "GET",
+                jsonp: true,
+                dataType: "jsonp",
+                mimeType: "text/html",
                 data: {
-                    name: name,
-                    n_people: n_people,
-                    email: email,
-                    message: message
+                    'entry.740194626': name,
+                    'entry.1199111819': email,
+                    'entry.1389690805': n_people,
+                    'entry.448937790': message,
+                    submit: 'Submit'
                 },
                 cache: false,
-                success: function() {
+                dataFiler: function(data){
+                  console.log("hi");
+                },
+                success: function(data) {
                     // Success message
                     $('#success').html("<div class='alert alert-success'>");
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Thanks so much for your RSVP! </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
@@ -46,12 +53,25 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", looks like Alex goofed and the website isn't responding...");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
                 },
-            })
+            }
+              );//end ajax call
+          }
+          ajaxC().fail(function(){ console.log("failure")});
+          $('#success').html("<div class='alert alert-success'>");
+                    $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+                        .append("</button>");
+                    $('#success > .alert-success')
+                        .append("<strong>Thanks so much for your RSVP! </strong>");
+                    $('#success > .alert-success')
+                        .append('</div>');
+
+                    //clear all fields
+                    $('#contactForm').trigger("reset");
         },
         filter: function() {
             return $(this).is(":visible");
