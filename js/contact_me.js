@@ -10,7 +10,7 @@ $(function() {
             // get values from FORM
             var name = $("input#name").val();
             var email = $("input#email").val();
-            var n_people = $("input#n_people").val();
+            var n_people = $("select#n_people").val();
             var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -18,13 +18,17 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://4rfwi08t6c.execute-api.us-east-1.amazonaws.com/prod/rsvp",
                 type: "POST",
+                crossDomain: true,
+                dataType: 'json',
                 data: {
-                    name: name,
-                    phone: phone,
-                    email: email,
-                    message: message
+                    'Name': name,
+                    'N': n_people,
+                    'Email': email,
+                    'Message': message, 
+                    'title': 'RSVP Test', 
+                    'sheet': 'Sheet1'
                 },
                 cache: false,
                 success: function() {
@@ -33,7 +37,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Thanks so much for your RSVP! </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
@@ -45,7 +49,7 @@ $(function() {
                     $('#success').html("<div class='alert alert-danger'>");
                     $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
-                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!");
+                    $('#success > .alert-danger').append("<strong>Sorry " + firstName + ", Alex goofed on setting something up...please email shoshandalexwedding@gmail.com.");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");

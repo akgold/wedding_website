@@ -1,5 +1,5 @@
 # Site settings
-title: Shosh and Alex's Wedding Website
+title: Shoshana and Alex's Wedding Website
 email: shoshandalexwedding@gmail.com
 description: "We're getting married! Alex made a website!"
 
@@ -8,7 +8,7 @@ description: "We're getting married! Alex made a website!"
 facts:
 - title: How We Met
   pic: 1
-  text: Alex and Shosh met in NFTY-MAR, a Jewish youth movement in 2004ish. They kissed once, but lost touch for 10 years.
+  text: Alex and Shoshana met in NFTY-MAR, a Jewish youth movement in 2004ish. They kissed once, but lost touch for 10 years.
 
 
 # Build settings
