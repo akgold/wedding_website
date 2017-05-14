@@ -21,14 +21,16 @@ $(function() {
               return $.ajax({
                 url: "https://4rfwi08t6c.execute-api.us-east-1.amazonaws.com/prod/rsvp",
                 type: "POST",
-                dataType: "JSON",
+                'Content-Type': 'application/json',
+                crossDomain: true,
+                cors: true,
                 data: {
                     Name: name,
                     N: n_people,
                     Email: email,
                     Message: message,
-                    title: "RSVP Test",
-                    sheet : "Sheet 1"
+                    key: "1cLu_f2PuSCCfMLhbMcFQJLfV2A1tZEV9QCJm0Ax2yWM",
+                    sheet : "Engagement RSVP"
                 },
                 cache: false,
                 dataFiler: function(data){
