@@ -30,7 +30,8 @@ $(function() {
                     Email: email,
                     Message: message,
                     key: "1cLu_f2PuSCCfMLhbMcFQJLfV2A1tZEV9QCJm0Ax2yWM",
-                    sheet : "Engagement RSVP"
+                    sheet : "Engagement RSVP", 
+                    Time: new Date(Date.now())
                 },
                 cache: false,
                 dataFiler: function(data){
