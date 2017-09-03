@@ -8,11 +8,65 @@ description: "We're getting married! Alex made a website!"
 facts:
 - title: How We Met
   pic: nfty_pic
-  text: We met sometime around 2004 in regional youth group. Exact dates are fuzzy. We were pretty good instant messenger friends (Winchester and Takoma Park seemed so far apart then!) throughout high school, we lost touch after high school and didn't speak for a decade or so.
+  text: We met sometime around 2004 in regional youth group. We were pretty good instant messenger friends (Winchester and Takoma Park seemed so far apart then!) throughout high school, but lost touch and didn't speak for a decade or so.
 
 - title: How We Re-Met
   pic: jswipe
-  text: We reconnected on JSwipe. Alex still thinks asking Shoshana if she wanted to grab some food and they "could decide if it was a date after" was smooth. Shoshana disagrees.
+  text: We reconnected on JSwipe. Alex still thinks suggesting that they grab some food and "decide if it was a date after" was smooth. Shoshana disagrees.
+
+# Wedding party: Jeff, Xaq, Bruno, Carter, Louis, Eliot, jswipe, Jenna, John, Rachel, Lizzi, Nicole
+wp:
+- name: Eliot Gold (Best Man)
+  pic: jswipe
+  text: Eliot has been Alex's favorite (and only) brother since he was born when Alex was 2 1/2. Shoshana is delighted that Eliot will soon be her favorite (and only) brother. Eliot requested that he be allowed to drive the bus at the wedding. A decision is pending.
+
+- name: McKenna Todd (Maid of Honor)
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: The Hexagoons
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: Jeffrey Holliday
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: Bruno Falcon
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: Xaq Rothman
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: Carter Baldwin
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: Louis Weil
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: Jenna Koltz
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: John Koltz
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: Rachel Ray
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: Nicole Falkenburry
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+
+- name: Lizzi Albert
+  pic: jswipe
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
 
 # Build settings
 markdown: kramdown
