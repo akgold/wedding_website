@@ -16,57 +16,68 @@ facts:
 
 # Wedding party: Jeff, Xaq, Bruno, Carter, Louis, Eliot, jswipe, Jenna, John, Rachel, Lizzi, Nicole
 wp:
+
 - name: Eliot Gold (Best Man)
-  pic: jswipe
+  pic: eliot
   text: Eliot has been Alex's favorite (and only) brother since he was born when Alex was 2 1/2. Shoshana is delighted that Eliot will soon be her favorite (and only) brother. Eliot requested that he be allowed to drive the bus at the wedding. A decision is pending.
 
 - name: McKenna Todd (Maid of Honor)
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
-
-- name: The Hexagoons
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
-
-- name: Jeffrey Holliday
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
-
-- name: Bruno Falcon
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
-
-- name: Xaq Rothman
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
-
-- name: Carter Baldwin
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
-
-- name: Louis Weil
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+  pic: mckenna
+  text: McKenna is Shoshana’s favorite (Alex is a close 2nd.) Hailing from Germany, Philly, Springfield, and Phoenix McKenna is the definition of a self-starter and is always the life of the party. McKenna and Shoshana found each other on the George Mason Off-Campus Housing website… roommates for 3 years and best friends fo’ life. 
 
 - name: Jenna Koltz
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+  pic: jenna
+  text: Jenna was randomly selected by an old roommate to become Mckenna and Shoshana’s roommate in the summer of 2010. Over that summer Jenna and Shoshana bonded during pool visits discussing Alaska and general young heartbreak. Jenna always the person to call for bug identification and level-headed advice, not to mention the best pedicure partner around. (Sorry, Eliot.)
 
 - name: John Koltz
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+  pic: john
+  text: John was first introduced to Shoshana as the boyfriend in Alaska (mentioned above). Later they became good friends and not just the best friend’s boyfriend. John, Shoshana and Mckenna have enjoyed many concerts together. Jenna and John were always very gracious and allowed Shoshana to be their perpetual third-wheel until Alex made his appearance. Now we have a fifth-wheel, baby Vera!
 
 - name: Rachel Ray
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+  pic: rachel
+  text: Rachel and Shoshana first met at our religious school playgroup when they were months old. Since then their friendship has survived, hot glue guns, bunk-bed ladder slides, basically running the religious school, first boyfriends, college life and now adultish life. Rachel and Shoshana share a passion for international relations and development and a deep devotion to making the world a better place.
 
 - name: Nicole Falkenburry
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+  pic: nicole
+  text: Nicole is the little sister Shoshana always wanted and one of the only things Shoshana really liked about sorority life. Nicole and Shoshana first bonded over a hatred of exercise, but have since attended several yoga classes together. Now while both living in the district they hang out all the time, proving that sorority sisters really do become your bridesmaids. Nicole is the most honest and compassionate of friends and Shoshana would be lost without her.
 
 - name: Lizzi Albert
-  pic: jswipe
-  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt fringilla hendrerit. Sed scelerisque leo enim, sed porttitor justo dapibus at. Suspendisse eu purus quis purus aliquam placerat. Morbi sed facilisis diam, in vestibulum tellus.
+  pic: lizzi
+  text: Lizzi is an accomplished professional actress and Alex’s non-biological twin sister. She frequently reassured Alex that he’d eventually find someone who was a perfect fit and be able to stop dating. Luckily for Alex, Lizzi was right as usual. Luckily for Lizzi, Alex was right that he’d complain much less when he could stop dating.
+
+- name: Bruno Falcon
+  pic: bruno
+  text: Bruno is an improv star, video producer, and <a href = https://applyingtoeverything.xyz/>podcast host</a>. Over the years, he and Alex have had many lengthy disagreements about philosophy, most of which conclude when they realize they’re actually arguing the same side.
+
+- name: Xaq Rothman
+  pic: xaq
+  text: Xaq is a master of the bass, the internet, and facial hair. He has introduced Alex to many of his favorite bands over the years. When Alex and Xaq met in 7th grade, Xaq was renowned for his impressions of large terrifying lizards including velociraptors and zerglings. Luckily, very little has changed.
+
+- name: Carter Baldwin
+  pic: carter
+  text: Carter and Alex first became friends in kindergarten and often butted heads over the appropriate color for Lego castle walls or just how destructive a single lightsaber stroke should be. Since then, it has become abundantly clear that Alex should defer to Carter on all topics Lego-related. Who’s the bigger Star Wars nerd isn’t always so clear.
+
+- name: Louis Weil
+  pic: louis
+  text: Louis is a medical professional, dynamite guitarist, and avid collector of puns. Louis and Alex’s friendship started in Carter’s living room in 4th grade and has spanned the time and space since then, including traveling together in Israel and a 3-week trip to Thailand where they were mistaken for a recently married couple in a cooking class.
+
+- name: Jeffrey Holliday
+  pic: jeffrey
+  text: Jeffrey is a reliable source of expertise on bikes, a superb cook of Japanese street food, and a marvelous trivia night curator. Alex and Jeffrey became friends in Ms.Hishikawa’s 3rd grade class and continued their friendship through Alex’s .000 batting seasons on the mighty Kidshop Krushers, summers hiking the Shenandoah mountains, and Alex’s brief foray into Segway tour-guiding (a job Alex got as part of the Jeffrey Holliday friendship nepotism program).
+
+registry:
+
+- name: REI
+  pic: rei
+  link: https://www.rei.com/GiftRegistryDetails/15196913
+
+- name: Crate And Barrel
+  pic: crate_and_barrel
+  link: https://www.crateandbarrel.com/gift-registry/shoshana-abrams-and-alex-gold/r5742432
+
+- name: Zola
+  pic: zola
+  link: https://www.zola.com/registry/alexandshoshana
 
 # Build settings
 markdown: kramdown
