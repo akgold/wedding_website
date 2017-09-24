@@ -12,9 +12,9 @@
                 {% for reg in site.registry %}
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/register/{{ reg.pic }}.jpg" class="img-responsive img-circle" alt="">
-                        <h4><a href="{{ reg.link }}">{{ reg.name }}</a></h4>
-
+                        <a href="{{ reg.link }}">
+                            <img src="img/register/{{ reg.pic }}.jpg" class="img-responsive img-circle" alt="">
+                        </a>
                     </div>
                 </div>
                 {% endfor %}
