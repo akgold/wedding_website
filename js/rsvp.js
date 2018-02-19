@@ -8,14 +8,15 @@ $(function() {
         submitSuccess: function($form, event) {
             event.preventDefault(); // prevent default submit behaviour
             // get values from FORM
-            var name = $("input#name").val().toString();
-            var email = $("input#email").val().toString();
+            var name = $("input#name").val();
+            var email = $("input#email").val();
             var n_total = $("select#n_people").val();
             var n_kids = $("select#n_kids").val();
             var shuttle = $("select#shuttle").val();
-            var message = $("textarea#message").val().toString();
+            var message = $("textarea#message").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
+            console.log("BOO")
             if (firstName.indexOf(' ') >= 0) {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
@@ -27,12 +28,12 @@ $(function() {
                 crossDomain: true,
                 cors: true,
                 data: {
-                    Name: "'".concat(name),
+                    Name: name,
                     Email: email, 
-                    N: n_total,
+                    N: n_people,
                     N_Kids: n_kids,
                     Shuttle: shuttle,
-                    Message: "'".concat(message),
+                    Message: message,
                     key: "1cLu_f2PuSCCfMLhbMcFQJLfV2A1tZEV9QCJm0Ax2yWM",
                     sheet : "RSVP", 
                     Time: new Date(Date.now())
