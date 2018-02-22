@@ -11,8 +11,9 @@ $(function() {
             var name = $("input#name").val().toString();
             var email = $("input#email").val().toString();
             var n_total = $("select#n_people").val();
-            var n_kids = $("select#n_kids").val();
             var shuttle = $("select#shuttle").val();
+            var coming = $("textarea#whos_coming").val().toString();
+            var food = $("textarea#food").val().toString();
             var message = $("textarea#message").val().toString();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
@@ -30,9 +31,10 @@ $(function() {
                     Name: "'".concat(name),
                     Email: email, 
                     N: n_total,
-                    N_Kids: n_kids,
                     Shuttle: shuttle,
                     Message: "'".concat(message),
+                    Coming: "'".concat(whos_coming), 
+                    Food: "'".concat(food),
                     key: "1cLu_f2PuSCCfMLhbMcFQJLfV2A1tZEV9QCJm0Ax2yWM",
                     sheet : "RSVP", 
                     Time: new Date(Date.now())
