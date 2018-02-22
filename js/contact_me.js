@@ -33,7 +33,7 @@ $(function() {
                     N: n_total,
                     Shuttle: shuttle,
                     Message: "'".concat(message),
-                    Coming: "'".concat(whos_coming), 
+                    Coming: "'".concat(coming), 
                     Food: "'".concat(food),
                     key: "1cLu_f2PuSCCfMLhbMcFQJLfV2A1tZEV9QCJm0Ax2yWM",
                     sheet : "RSVP", 
