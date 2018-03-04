@@ -15,6 +15,7 @@ $(function() {
             var coming = $("textarea#whos_coming").val().toString();
             var food = $("textarea#food").val().toString();
             var message = $("textarea#message").val().toString();
+            var dessert = $("select#dessert").val()
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -35,6 +36,7 @@ $(function() {
                     Message: "'".concat(message),
                     Coming: "'".concat(coming), 
                     Food: "'".concat(food),
+                    Dessert: dessert,
                     key: "1cLu_f2PuSCCfMLhbMcFQJLfV2A1tZEV9QCJm0Ax2yWM",
                     sheet : "RSVP", 
                     Time: new Date(Date.now())
